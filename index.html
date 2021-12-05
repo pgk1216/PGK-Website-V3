@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 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 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Philip Kim</title>
+</head>
+<body>
+
+    <div id="panel-opener">
+        <i class="fas fa-arrow-right"></i>
+    </div>
+
+    <div id="welcome">
+        <div id="welcome-message">
+            Hello, and welcome to my website!
+        </div>
+    </div>
+    
+    <div id="left-panel">
+        <div id="nav-panel">
+            <ul>
+                <li><a href="#" id="home-button" onclick="changePages(0)">Home</a></li>
+                <li><a href="#" id="about-button" onclick="changePages(1)">About</a></li>
+                <li><a href="#" id="portfolio-button" onclick="changePages(2)">Portfolio</a></li>
+                <li><a href="#" id="contact-button" onclick="changePages(3)">Contact</a></li>
+            </ul>
+            <div id="copyright">
+                © 2021 Philip Kim
+            </div>
+        </div>
+    </div>
+
+    <div id="main-screen">
+        <div id="home">
+            <div id="front-page-pics">
+                <img src="img/front-pic.jpg" alt="">
+            </div>
+            <div id="front-page-title">
+                Philip Kim
+            </div>
+            <div id="front-page-desc">
+                Software Engineer
+            </div>
+            <div class="resume-button">
+                <div class="button" data-title="View my resume" 
+                onclick="window.open('PGK_Resume.pdf', '_blank');" style="cursor:pointer;">View my resume</div>
+            </div>
+            <ul class="socials">
+                <li><a href="https://www.linkedin.com/in/philip-kim-ab367b178/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100007816157226" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/pgk1216" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+
+        <div id="about">
+            <div class="page-title">
+                About Me
+            </div>
+
+            <div id="about-desc">
+                Hello! I am currently a Senior at the University of Michigan - Ann Arbor studying Computer Science. Although Computer Science is my passion, certain bugs makes me (temporarily) hate coding. So, while I'm in that fit of rage, I resort to doing things I enjoy most! :) For me, that includes:
+            </div>
+
+            <div id="hobby-section">
+                <div class="hobby">
+                    <div class="hobby-title">Gym</div>
+                    <div class="hobby-pic"><a href="https://www.instagram.com/pgkfit/" target="_blank"><img src="img/gym-pic.jpg" alt=""></a></div>
+                </div>
+                <div class="hobby">
+                    <div class="hobby-title">Fashion</div>
+                    <div class="hobby-pic"><a href="https://www.pgkloset.com/" target="_blank"><img src="img/fashion-pic.JPG" alt=""></a></div>
+                </div>
+                <div class="hobby">
+                    <div class="hobby-title">Valorant</div>
+                    <div class="hobby-pic"><a href="#"><img src="img/valorant-pic.png" alt=""></a></div>
+                </div>
+                <div class="hobby">
+                    <div class="hobby-title">Dancing</div>
+                    <div class="hobby-pic dance-pic"><a href="https://umfunktion.org/" target="_blank"><img src="img/dance-pic.jpg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="portfolio-title">
+                Portfolio
+            </div>
+
+            <!-- START PROJECT AREA -->
+
+            <div id="project-page-1" class="portfolio-display">
+                <div class="project">
+                    <div class="project-image">
+                        <a href="https://github.com/pgk1216/PGKloset" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            PGKLOSET.com
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <a href="#" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            PHILIPGKIM.com
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <a href="#" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            Outdoor Tic-Tac-Toe
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <a href="https://github.com/pgk1216/Currencyverter" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            Currencyverter
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <a href="https://github.com/pgk1216/Cubechanix" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            Cubechanix
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <a href="#" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            PGK Website 1.0
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="project-page-2" class="portfolio-display">
+                <div class="project">
+                    <div class="project-image">
+                        <a href="#" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            PGK Website 2.0
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <a href="#" target="_blank"><img src="img/github-icon.png" alt=""></a>
+                    </div>
+                    <div class="project-label">
+                        <div class="project-title">
+                            PoofDodger
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END PROJECT AREA -->
+
+            <div class="pagination">
+                <ul>
+                    <li><span class="prev"><</span></li>
+                    <li id="project-pagebtn-1" class="page-number active"><span onclick="changePfPages(1)">1</span></li>
+                    <li id="project-pagebtn-2" class="page-number"><span onclick="changePfPages(2)">2</span></li>
+                    <li><span class="next">></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="page-title">
+                Contact Me
+            </div>
+
+            <div class="contact-desc">
+                <div>Want to get in touch? Email me at <span class="email">philipgk@umich.edu</span></div>
+                <div class="bold">OR</div>
+                <div>Fill out this form and I'll get back to you ASAP!</div>
+            </div>
+
+            <div id="contact-form">
+                <form action="" method="POST">
+                    <div class="contact-form-box">
+                        <div class="contact-form-name">
+                            <div class="input-box">
+                                <input type="text" name="fname" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class="input-box">
+                                <input type="text" name="lname" required>
+                                <span>Last Name</span>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="email" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="subject" required>
+                            <span>Subject</span>
+                        </div>
+                        <div class="input-box">
+                            <textarea name="message" required></textarea>
+                            <span>Message</span>
+                        </div>
+                        <div class="button" data-title="Send" name="submit">Send</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src='js/jquery.min.js'></script>
+<script src="js/main.js"></script>
+
+</html>
